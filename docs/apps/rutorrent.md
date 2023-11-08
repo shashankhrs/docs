@@ -10,17 +10,19 @@ _Note: public trackers are disabled by default in the standard install.  Refer t
 |-------------|-------------|-------------|-------------|-------------|
 | :material-home: Project home | [:octicons-link-16: Docs](https://github.com/Novik/ruTorrent/wiki){: .header-icons } | [:octicons-mark-github-16: Github ruTorrent](https://github.com/Novik/ruTorrent){: .header-icons } | [:octicons-mark-github-16: Github rTorrent](https://github.com/rakshasa/rtorrent){: .header-icons } | [:material-docker: Docker](https://hub.docker.com/r/horjulf/rutorrent-autodl){: .header-icons }|
 
-## 1. URL
+## 1. Install
+run sb install rutorrent
+## 2. URL
 
 - To access ruTorrent, visit `https://rutorrent._yourdomain.com_`
 
-## 2. Basics
+## 3. Basics
 
 ### Setup
 
 The setup for [Sonarr](sonarr.md#rutorrent), [Radarr](radarr.md#rutorrent), and [Lidarr](lidarr.md#rutorrent) are done on their respective wiki pages.
 
-## 3. Enable AutoUnpack
+## 4. Enable AutoUnpack
 
 AutoUnpack is a plugin that will automatically unrar/unzip torrent data.
 
@@ -46,7 +48,7 @@ To enable AutoUnpack:
 
 6. Click "OK".
 
-## 3. Custom Plugins and Themes
+## 5. Custom Plugins and Themes
 
 You can have custom plugins and themes imported during Docker container rebuild. Just place them in the following paths:
 
